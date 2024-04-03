@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "main": "index.js",
+  "private": true,
+  "workspaces": ["docs", "packages/**", "play"],
+  "repository": "git@github.com:FrankJingZhi/vue3-components-monorepo.git",
+  "author": "FrankJingZhi <m15666795711@163.com>",
+  "license": "MIT",
+  "dependencies": {
+    "typescript": "^5.4.3",
+    "vue": "^3.4.21"
+  }
+}
