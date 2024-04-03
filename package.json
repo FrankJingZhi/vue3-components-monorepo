@@ -3,6 +3,9 @@
   "main": "index.js",
   "private": true,
   "workspaces": ["docs", "packages/**", "play"],
+  "scripts": {
+    "dev": "yarn workspace play dev"
+  },
   "repository": "git@github.com:FrankJingZhi/vue3-components-monorepo.git",
   "author": "FrankJingZhi <m15666795711@163.com>",
   "license": "MIT",
