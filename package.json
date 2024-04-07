@@ -14,13 +14,19 @@
   "author": "FrankJingZhi <m15666795711@163.com>",
   "license": "MIT",
   "dependencies": {
+    "@eslint/js": "^9.0.0",
+    "eslint": "^9.0.0",
+    "eslint-plugin-vue": "^9.24.0",
+    "globals": "^15.0.0",
     "typescript": "^5.4.3",
+    "typescript-eslint": "^7.5.0",
     "vue": "^3.4.21"
   },
   "devDependencies": {
-    "@vue3-components-monorepo/utils": "workspace: *",
     "@vue3-components-monorepo/components": "workspace: *",
     "@vue3-components-monorepo/theme-chalk": "workspace: *",
+    "@vue3-components-monorepo/utils": "workspace: *",
+    "sass": "^1.74.1",
     "unplugin-vue-define-options": "^1.4.3"
   }
 }

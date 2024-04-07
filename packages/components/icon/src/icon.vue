@@ -9,8 +9,6 @@ import {createNamespace} from '@vue3-components-monorepo/utils/create'
 import { iconProps } from '.';
 import { computed } from 'vue';
 
-if(true   ) {   }
-
 defineOptions({
     name: 'WIcon'
 })
