@@ -1,8 +1,11 @@
 <script setup lang="ts">
+import {AddCircle} from '@vicons/ionicons5'
 </script>
 
 <template>
-  <WIcon color="red" size="30">测试</WIcon>
+  <WIcon color="red" size="30">
+    <AddCircle></AddCircle>
+  </WIcon>
 </template>
 
 <style scoped>

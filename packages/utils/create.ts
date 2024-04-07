@@ -50,7 +50,7 @@ function _bem(prefixName: string) {
 }
 
 export function createNamespace(name: string) {
-  const prefixName = `z-${name}`
+  const prefixName = `w-${name}`
   return _bem(prefixName)
 }
 
