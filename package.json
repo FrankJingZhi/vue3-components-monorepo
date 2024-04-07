@@ -2,7 +2,11 @@
   "version": "1.0.0",
   "main": "index.js",
   "private": true,
-  "workspaces": ["docs", "packages/**", "play"],
+  "workspaces": [
+    "docs",
+    "packages/**",
+    "play"
+  ],
   "scripts": {
     "dev": "yarn workspace play dev"
   },
@@ -12,5 +16,11 @@
   "dependencies": {
     "typescript": "^5.4.3",
     "vue": "^3.4.21"
+  },
+  "devDependencies": {
+    "@vue3-components-monorepo/utils": "workspace: *",
+    "@vue3-components-monorepo/components": "workspace: *",
+    "@vue3-components-monorepo/theme-chalk": "workspace: *",
+    "unplugin-vue-define-options": "^1.4.3"
   }
 }
