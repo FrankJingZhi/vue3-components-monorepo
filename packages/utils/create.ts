@@ -45,7 +45,7 @@ function _bem(prefixName: string) {
     bm,
     em,
     bem,
-    is,
+    is
   }
 }
 
@@ -54,15 +54,15 @@ export function createNamespace(name: string) {
   return _bem(prefixName)
 }
 
-const bem = createNamespace('icon')
-console.log(bem.b('box'))
-console.log(bem.e('button'))
-console.log(bem.m('disabled'))
+// const bem = createNamespace('icon')
+// console.log(bem.b('box'))
+// console.log(bem.e('button'))
+// console.log(bem.m('disabled'))
 
-console.log(bem.be('box', 'button'))
-console.log(bem.bm('box', 'disabled'))
-console.log(bem.em('button', 'disabled'))
+// console.log(bem.be('box', 'button'))
+// console.log(bem.bm('box', 'disabled'))
+// console.log(bem.em('button', 'disabled'))
 
-console.log(bem.bem('box', 'button', 'disabled'))
+// console.log(bem.bem('box', 'button', 'disabled'))
 
-console.log(bem.is(true, 'disabled'))
+// console.log(bem.is(true, 'disabled'))

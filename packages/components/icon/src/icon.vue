@@ -6,7 +6,7 @@
 
 <script setup lang="ts">
 import {createNamespace} from '@vue3-components-monorepo/utils/create'
-import { iconProps } from '.';
+import { iconProps } from './icon';
 import { computed } from 'vue';
 
 defineOptions({
